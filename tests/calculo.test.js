@@ -11,4 +11,4 @@ describe("Teste de cálculo de juros compostos", () => {
         expect(() => calcularJurosCompostos(1000, -0.05, 12)).toThrow("Os valores de capital, taxa e tempo devem ser positivos.");
         expect(() => calcularJurosCompostos(1000, 0.05, -12)).toThrow("Os valores de capital, taxa e tempo devem ser positivos.");
     });
-});
+}); 
