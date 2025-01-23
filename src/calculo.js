@@ -15,4 +15,4 @@ function calcularJurosCompostos(capital, taxa, tempo) {
 }
 
 // Exporta a função para ser usada em outros arquivos
-module.exports = calcularJurosCompostos;
+module.exports = calcularJurosCompostos; 
