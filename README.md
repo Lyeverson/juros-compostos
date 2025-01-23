@@ -6,6 +6,21 @@ Calcular juros compostos.
 Validar valores de entrada.
 Testar cálculos com diferentes cenários.
 
+
+Onde:
+- `M` é o montante final.
+- `C` é o capital inicial.
+- `i` é a taxa de juros (em decimal).
+- `t` é o tempo em períodos.
+
+## Exemplos
+**Entrada:**
+```javascript
+calcularJurosCompostos(1000, 0.05, 12);
+
+Saída:
+1795.85
+
 ## Instruções Básicas para Executar:
 
 ```bash
@@ -17,3 +32,12 @@ cd juros-compostos
 
 # Execute o script
 node src/calculo.js
+
+# Certifique-se de ter o Jest instalado
+npm install jest --save-dev
+
+# Execute os testes
+npm test
+
+
+
